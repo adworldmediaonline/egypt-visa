@@ -170,7 +170,7 @@ export default function PaymentForm() {
     if (isLoadingApplication) {
         return (
             <div className="flex justify-center items-center min-h-[400px]">
-                <Loader2 className="h-8 w-8 animate-spin text-ethiopia-green" />
+                <Loader2 className="h-8 w-8 animate-spin text-ethiopia-blue" />
                 <span className="ml-2 text-lg">Loading payment information...</span>
             </div>
         );

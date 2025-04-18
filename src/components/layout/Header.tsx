@@ -31,10 +31,10 @@ export default function Header() {
                         </button>
                         <Link href="/">
                             <div className="flex items-center ml-2 md:ml-0">
-                                <div className="h-10 w-10 bg-green-600 rounded-full flex items-center justify-center mr-2">
-                                    <span className="text-white font-bold">ET</span>
+                                <div className="h-10 w-10 bg-blue-600 rounded-full flex items-center justify-center mr-2">
+                                    <span className="text-white font-bold">EG</span>
                                 </div>
-                                <span className="font-bold text-xl text-green-800">Ethiopia eVisa</span>
+                                <span className="font-bold text-xl text-blue-800">Egypt eVisa</span>
                             </div>
                         </Link>
                     </div>

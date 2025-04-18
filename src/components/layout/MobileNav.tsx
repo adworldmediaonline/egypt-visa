@@ -15,7 +15,7 @@ export default function MobileNav({ closeMenu }: MobileNavProps) {
                 <div className="flex flex-col space-y-3 py-2">
                     <Link
                         href="/"
-                        className={`flex items-center font-medium hover:text-green-600 py-2 ${pathname === '/' ? 'text-green-800' : 'text-gray-700'
+                        className={`flex items-center font-medium hover:text-blue-600 py-2 ${pathname === '/' ? 'text-blue-800' : 'text-gray-700'
                             }`}
                         onClick={closeMenu}
                     >
@@ -24,7 +24,7 @@ export default function MobileNav({ closeMenu }: MobileNavProps) {
                     </Link>
                     <Link
                         href="/apply"
-                        className={`flex items-center font-medium hover:text-green-600 py-2 ${pathname === '/apply' ? 'text-green-800' : 'text-gray-700'
+                        className={`flex items-center font-medium hover:text-blue-600 py-2 ${pathname === '/apply' ? 'text-blue-800' : 'text-gray-700'
                             }`}
                         onClick={closeMenu}
                     >
@@ -33,7 +33,7 @@ export default function MobileNav({ closeMenu }: MobileNavProps) {
                     </Link>
                     <Link
                         href="/status"
-                        className={`flex items-center font-medium hover:text-green-600 py-2 ${pathname === '/status' ? 'text-green-800' : 'text-gray-700'
+                        className={`flex items-center font-medium hover:text-blue-600 py-2 ${pathname === '/status' ? 'text-blue-800' : 'text-gray-700'
                             }`}
                         onClick={closeMenu}
                     >
@@ -42,7 +42,7 @@ export default function MobileNav({ closeMenu }: MobileNavProps) {
                     </Link>
                     <Link
                         href="/contact"
-                        className={`flex items-center font-medium hover:text-green-600 py-2 ${pathname === '/contact' ? 'text-green-800' : 'text-gray-700'
+                        className={`flex items-center font-medium hover:text-blue-600 py-2 ${pathname === '/contact' ? 'text-blue-800' : 'text-gray-700'
                             }`}
                         onClick={closeMenu}
                     >

@@ -54,7 +54,7 @@ export default function VisaProcess() {
 
                 <div className="mt-12 text-center">
                     <Link href="/apply">
-                        <Button className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-md font-medium cursor-pointer">
+                        <Button className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-md font-medium cursor-pointer">
                             Start Your Application
                         </Button></Link>
                 </div>

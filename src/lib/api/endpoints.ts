@@ -32,16 +32,9 @@ export interface VisaDetailsResponse {
 // Arrival info interfaces
 export interface ArrivalInfoRequest {
   formId: string;
+  travellingFrom: string;
   arrivalDate: string;
-  departureCountry: string;
-  departureCity: string;
-  airline?: string;
-  flightNumber?: string;
-  accommodationType: string;
-  accommodationName: string;
-  accommodationCity: string;
-  accommodationStreetAddress: string;
-  accommodationTelephone: string;
+  departureDate: Date;
 }
 
 // Personal info interfaces

@@ -3,23 +3,23 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const destinations = [
     {
-        name: "Lalibela",
-        description: "Famous for its rock-cut churches",
+        name: "Pyramids of Giza",
+        description: "Ancient wonders and the last remaining of the Seven Wonders of the Ancient World",
         image: "https://placehold.co/400x400/png"
     },
     {
-        name: "Simien Mountains",
-        description: "UNESCO World Heritage site with breathtaking landscapes",
+        name: "Luxor & Valley of the Kings",
+        description: "Ancient temples and tombs of pharaohs including Tutankhamun",
         image: "https://placehold.co/400x400/png"
     },
     {
-        name: "Danakil Depression",
-        description: "One of the hottest places on Earth with unique geological features",
+        name: "Red Sea Coast",
+        description: "World-class diving and snorkeling destinations with vibrant coral reefs",
         image: "https://placehold.co/400x400/png"
     },
     {
-        name: "Gondar",
-        description: "Known for its medieval castles and palaces",
+        name: "Alexandria",
+        description: "Historic Mediterranean city founded by Alexander the Great",
         image: "https://placehold.co/400x400/png"
     }
 ];
@@ -31,7 +31,7 @@ export default function MustVisitDestinations() {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">Must Visit Destinations</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Explore these incredible destinations when you visit Ethiopia
+                        Explore these incredible destinations when you visit Egypt
                     </p>
                 </div>
 
