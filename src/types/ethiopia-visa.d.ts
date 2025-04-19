@@ -107,6 +107,11 @@ export interface Declaration {
     deportedDateFrom: string | null;
     deportedDateTo: string | null;
     whoIsPaying: string;
+    hostType?: string;
+    hostName?: string;
+    hostPhoneNumber?: string;
+    hostEmail?: string;
+    hostAddress?: string;
     createdAt: string;
     updatedAt: string;
     __v: number;

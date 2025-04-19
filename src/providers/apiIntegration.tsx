@@ -100,6 +100,7 @@ export function integrateApiDataIntoFormState(apiData: VisaApplication) {
         'personal-info': !!apiData.personalInfo,
         'passport-info': !!apiData.passportInfo,
         'additional-applicants': !!apiData.additionalApplicants,
+        'declaration': !!apiData.declaration,
         'review': apiData.applicationStatus === 'submitted',
         'attachments': apiData.documents && apiData.documents.isComplete,
         'payment': apiData.paymentStatus === 'completed',

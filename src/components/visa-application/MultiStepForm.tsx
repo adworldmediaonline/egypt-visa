@@ -11,6 +11,7 @@ import ReviewForm from './ReviewForm';
 import AttachmentsForm from './AttachmentsForm';
 import PaymentForm from './PaymentForm';
 import ConfirmationPage from './ConfirmationPage';
+import DeclarationForm from './DeclarationForm';
 
 interface MultiStepFormProps {
   title: string;
@@ -87,6 +88,7 @@ export default function MultiStepForm({
           {currentStep === 'additional-applicants' && (
             <AdditionalApplicantsForm />
           )}
+          {currentStep === 'declaration' && <DeclarationForm />}
           {currentStep === 'review' && <ReviewForm />}
           {currentStep === 'attachments' && <AttachmentsForm />}
           {currentStep === 'payment' && <PaymentForm />}

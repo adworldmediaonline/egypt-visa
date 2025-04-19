@@ -294,9 +294,9 @@ export default function PaymentForm() {
             <div className="flex justify-between pt-6">
                 <Button
                     variant="outline"
-                    onClick={() => setCurrentStep('attachments')}
+                    onClick={() => setCurrentStep('review')}
                 >
-                    Back to Attachments
+                    Review Application
                 </Button>
             </div>
         </div>
