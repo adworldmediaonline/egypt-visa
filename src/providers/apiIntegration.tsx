@@ -14,12 +14,12 @@ export function integrateApiDataIntoFormState(apiData: VisaApplication) {
 
     if (apiData.lastExitUrl === 'payment') {
         currentStep = 'payment';
+    } else if (apiData.lastExitUrl === 'attachments') {
+        currentStep = 'attachments';
     } else if (apiData.paymentStatus === 'paid') {
         currentStep = 'confirmation';
     } else if (apiData.applicationStatus === 'submitted') {
         currentStep = 'payment';
-    } else if (apiData.lastExitUrl === 'attachments') {
-        currentStep = 'attachments';
     } else if (apiData.lastExitUrl === 'review') {
         currentStep = 'review';
     } else if (apiData.lastExitUrl === 'additional-applicants') {

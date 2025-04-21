@@ -91,8 +91,9 @@ export default function PaymentForm() {
         mutationFn: (data: { formId: string }) => visaApi.createStripeSession(data),
         onSuccess: (data) => {
             // Redirect to Stripe checkout page
-            if (data && data.session_url) {
-                window.location.href = data.session_url;
+            console.log('Stripe session created:', data);
+            if (data?.data && data?.data?.session_url) {
+                window.location.href = data?.data?.session_url;
             } else {
                 setPaymentStatus('error');
                 setPaymentError('Failed to create payment session');
@@ -297,6 +298,13 @@ export default function PaymentForm() {
                     onClick={() => setCurrentStep('review')}
                 >
                     Review Application
+                </Button>
+
+                <Button
+                    variant="default"
+                    onClick={() => setCurrentStep('attachments')}
+                >
+                    Attach Documents
                 </Button>
             </div>
         </div>
